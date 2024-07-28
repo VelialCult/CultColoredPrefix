@@ -79,12 +79,8 @@ public class PrefixManager {
             formattingCodes.append(m.group());
         }
 
-        System.out.println(prefix);
-        System.out.println(formattingCodes);
         String strippedPrefix = ChatColor.stripColor(prefix).replaceAll(config.getString("settings.prefix-color-regex"), "");
-        System.out.println(strippedPrefix);
         String newPrefix = "&" + color.getChar() + formattingCodes + strippedPrefix + config.getString("settings.symbols-after-prefix");
-        System.out.println(newPrefix);
 
         if (providersManager.useLuckPerms()) {
             providersManager.getLuckPermsProvider().setPrefix(player, newPrefix);
