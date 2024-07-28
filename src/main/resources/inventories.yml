@@ -1,0 +1,61 @@
+inventories:
+  main:
+    title: "&8Кастомнизация | Изменение цвета префикса"
+    structure:
+      - . . . . c . . . .
+      - . x x x x x x x .
+      - . x x x x x x x .
+      - . x x x x x x x .
+      - . . . . . . . . .
+      - . . . b . n . . .
+    items:
+      reset:
+        custom: true
+        symbol: c
+        displayName: '&6Очистить префикс'
+        lore:
+          - ''
+          - '&7С помощью данный кнопки вы сможете'
+          - '&7очистить свой префикс и вернуть'
+          - '&7префикс вашей привилегии'
+          - ''
+          - '&e▹ Нажмите, чтобы очистить'
+        actionOnClick:
+          - '[reset]'
+        item:
+          material: "BARRIER"
+          head: ''
+      default:
+        symbol: x
+        custom: false
+        displayName: "&fЦвет {color}"
+        lore:
+          - ''
+          - '&fВаш префикс будет выглядеть так: {prefix}'
+          - ''
+          - '&e▹ Нажмите, чтобы изменить'
+  buttons:
+    dont-have-permission:
+      displayName: "&cНедостаточно прав"
+      lore:
+        - '&7Вы не можете использовать изменения цвета'
+        - '&7префикса, доступно с &cАДМИН'
+      item:
+        material: BARRIER
+        head: ""
+    back-button:
+      displayName: '&6Назад'
+      lore:
+        - '&7Нажмите, чтобы перейти на предудыющую'
+        - '&7Страницу меню'
+      item:
+        material: head
+        head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0OTFkYmZhMzcyZGY3OTk5MjYyY2JmYTg5MTY1MThhYjNlMzU5NWJkNmJkZGY5ZjdkMTk1ZGYzZjc4ODViZCJ9fX0=
+    forward-button:
+      displayName: '&6Вперёд'
+      lore:
+        - '&7Нажмите, чтобы перейти на следующую'
+        - '&7Страницу меню'
+      item:
+        material: head
+        head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRhMzYzYWZkYTE5MjJmYWM4MTA3YjZiMGE1MWViNmY2YzU0MTU3NWUyZGE1NjIwOGY2NWFlY2RlZDI2MzE1YSJ9fX0=

@@ -1,0 +1,14 @@
+name: CultColoredPrefix
+main: ru.velialcult.coloredprefix.CultColoredPrefix
+version: '${project.version}'
+api-version: 1.16
+website: https://discordapp.com/users/405814079379341322
+author: Nilsson03
+softdepend:
+  - LuckPerms
+  - Vault
+  - TAB
+depend:
+  - CultLibrary
+commands:
+  coloredprefix:

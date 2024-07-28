@@ -1,0 +1,3 @@
+settings:
+  prefix-color-regex: "(&[a-flk-o0-9rx])"
+  symbols-after-prefix: "&r&f"
